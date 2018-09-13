@@ -1,0 +1,36 @@
+body{
+  background: black;
+}
+
+.wrapper{
+  position: relative;
+  width: 33vw;
+  float: left;
+  margin: 1px;
+}
+
+.banner-top{
+  background: linear-gradient(black, transparent);
+  color: white;
+  position: absolute;
+}
+
+.banner-bottom{
+  text-align: right;
+  background: linear-gradient(transparent, black);
+  color: white;
+  position: absolute;
+  bottom: 0px;
+}
+
+button{
+  margin: 5px;
+}
+
+.fa-download{
+  cursor: pointer;
+}
+
+.fa-trash-alt{
+  cursor: pointer;
+}
